@@ -9,10 +9,10 @@ import { MenuPageComponent } from './components/menu-page/menu-page.component';
 
 
 @NgModule({
-  declarations: [AppComponent,],
+  declarations: [AppComponent, MenuPageComponent],  // Ensure MenuPageComponent is declared
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent,], // Specify the root component here
+  bootstrap: [AppComponent],  // Specify the root component here
 })
 export class AppModule {}
