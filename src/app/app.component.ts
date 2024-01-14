@@ -9,10 +9,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
+  // standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [CommonModule, RouterOutlet,MenuPageComponent,BrowserModule]
+  // imports: [CommonModule, RouterOutlet,MenuPageComponent,BrowserModule]
 })
 export class AppComponent {
   title = 'Private-project';
